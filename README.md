@@ -15,13 +15,13 @@ Os exercícios abordam conceitos fundamentais da programação em C, como:
 ### Exercícios implementados
 
 - **Atividade1_q1.cpp**  
-  Exercício introdutório que realiza leitura de dados via teclado e executa operações básicas de processamento, com exibição do resultado no console.
+Programa no qual processa um ranking de notas, no qual o deve calcular e exibir a soma de todas as notas. Apos o calculo da soma o programa deve calcular a media das nota e fornecer quantos alunos ficaram acima da media calculada. E por fim verificar qual é a maior nota com base em todas as notas.
 
 - **Atividade1_q2.cpp**  
-  Programa que simula um saque bancário. A partir de um valor inteiro informado pelo usuário, o sistema calcula a quantidade mínima de notas de R$ 50, R$ 20 e R$ 10 necessárias para compor o valor do saque.
+Programa que simula um saque bancário, no qual o programa deve receber um valor **inteiro(multiplo de 10)** e calcular a quantidade de notas de **R$ 50, R$ 20 e R$ 10** necessarias. O exemplo utilizado e de R$ 180, que resulta em 3 notas de R$50, 1 nota de R$ 20 e 1 nota de R$10.
 
 - **Atividade1_q3.cpp**  
-  Exercício voltado ao processamento de dados informados pelo usuário, aplicando lógica sequencial e operações aritméticas para resolver o problema proposto, com exibição do resultado no console.
+Programa validador de senha que deve receber um senha **(cadeia de caracteres)**, apos receber a senha o programa deve verificar se ela passar por dois criterios. O primeiro e se a senha possue mais de 8 caracteres e o segundo e se ela possui pelo menos um caracter especial. E por fim, o programa deve informar se a senha e valida ou invalida, se caso a senha for invalida o programa deve informar em qual criterio a senha não passou.
 
 ---
 
@@ -29,13 +29,13 @@ Os exercícios abordam conceitos fundamentais da programação em C, como:
 
 O projeto inclui:
 
-- Código **C** (sem frameworks).
-- Estrutura típica de disciplina: cada exercício em sua classe própria.
+- Código **C**.
+- Estrutura típica de disciplina.
 - Uso de:
   - `Printf` para leitura de entrada;
   - Estruturas de repetição (`for`, `while`);
   - Condicionais (`if/else`);
-  - Manipulação de arrays e coleções;
+  - Manipulação de vetores;
   - Métodos auxiliares para organização lógica do código.
 
 ---
